@@ -1,0 +1,431 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: center / cover no-repeat url(../images/header_image.jpg);
+    height: 580px;
+    position: relative;
+}
+.header-adjust {
+    width: 920px;
+    margin: auto;
+    padding: 25px 0;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.menu, .login {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a, .login a {
+    margin-left: 18px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.title {
+    color: white;
+
+}
+
+.signup-button {
+    padding: 10px 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#carree {
+    margin-top: 15px;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: rgb(113, 243, 120);
+}
+
+#firstCircle {
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    background: white;
+}
+
+.second-title {
+    margin-top: 140px;
+    margin-left: 18px;
+    font-size: 50px;
+    color: white;
+    font-weight: normal;
+}
+
+.theLinks {
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+.linkOne {
+    padding: 20px 45px;
+    border: 1px solid rgb(216, 213, 213);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.linkTwo {
+    padding: 20px 30px;
+    border: 1px solid blueviolet;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.endParagraph {
+    text-align: center;
+    margin-top: 160px;
+    color: transparent;
+    text-shadow: 0 0 3px #fff;
+}
+
+#secondCircle {
+    background: blueviolet;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    border:2px solid blueviolet; 
+    position: absolute;
+    left: 50%;
+    bottom: -3%;
+}
+
+.secondCircleIcon {
+   
+    color: white;
+    font-size: 22px !important;
+    margin: 6px;
+    margin-left: 11px;
+}
+
+/***** Partie corps de la page */
+.main-content {
+background: rgb(218, 214, 214);
+}
+main {
+    width: 920px;
+    margin: auto;
+    padding: 110px 0;
+}
+
+.products h3, .products p {
+    text-align: center;
+}
+
+.products h3 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.productsSndPargraph {
+    margin-top: 6px;
+}
+.cardsOne {
+    margin-top: 70px;
+}
+.cardsOne, .cardsTwo {
+    display: flex;
+}
+
+.card {
+    margin-left: 12px;
+    background: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.container {
+    padding: 15px;
+}
+
+.container h5 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.container p {
+    font-size: 0.7rem;
+}
+
+.cardsTwo {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px){
+    body {
+        overflow-x: hidden;
+    }
+    header {
+        width: auto;
+    }
+    .header-adjust {
+        width: auto;
+    }
+    .nav-header {
+        display: block;
+        text-align: center;
+        margin-right: 69px;
+    }
+
+    .menu, .login{
+        display: block;
+    }
+    .login li {
+        margin-bottom: 12px;
+    }
+    .title {
+        font-size: 20px;
+        margin-left: 16px;
+    }
+
+    .second-title {
+        margin-top: 97px;
+    }
+
+    .menu a, .login a {
+        font-size: 20px;
+    }
+    .productsSndPargraph, .products p {
+        font-size: 1.2rem;
+    }
+
+    #secondCircle{
+        left: 40%;
+    }
+    .endParagraph {
+        margin-top: 37px;
+        margin-right: 70px;
+    }
+    main {
+        width: 90%;
+        margin: auto;
+        padding-top: 110px;
+    }
+
+    .cardsOne, .cardsTwo {
+        display: block;
+        padding: 20px 40px;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-bottom: 18px;
+    }
+    .container h5 {
+        font-size: 1.6rem;
+    }
+
+    .container p {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+    .title {
+        margin-right: 8px;
+    }
+    .login {
+        margin-right: 188px;
+    }
+    .endParagraph{
+        margin-right: 199px;
+    }
+    #secondCircle{
+        position: absolute;
+        left: 45%;
+    }
+    main {
+        width: 741px;
+        margin: auto;
+    }
+    .card {
+        margin: 3px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    header {
+        background: center / cover no-repeat url(../images/header_image.jpg);
+        height: 580px;
+        position: relative;
+    }
+    .header-adjust {
+        width: 920px;
+        margin: auto;
+        padding: 25px 0;
+    }
+    .nav-header {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    
+    .menu, .login {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    
+    .menu a, .login a {
+        margin-left: 18px;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    
+    .title {
+        color: white;
+    
+    }
+    
+    .signup-button {
+        padding: 10px 18px;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+    
+    #carree {
+        margin-top: 15px;
+        position: absolute;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        background: rgb(113, 243, 120);
+    }
+    
+    #firstCircle {
+        margin-top: 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        position: absolute;
+        left: 20%;
+        background: white;
+    }
+    
+    .second-title {
+        margin-top: 140px;
+        margin-left: 18px;
+        font-size: 50px;
+        color: white;
+        font-weight: normal;
+    }
+    
+    .theLinks {
+        margin-top: 30px;
+        margin-left: 18px;
+    }
+    
+    .linkOne {
+        padding: 20px 45px;
+        border: 1px solid rgb(187, 184, 184);
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .linkTwo {
+        padding: 20px 30px;
+        border: 1px solid blueviolet;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: blueviolet;
+    }
+
+    #secondCircle {
+        background: blueviolet;
+        border-radius:50%;
+        width:40px;
+        height:40px;
+        border:2px solid blueviolet; 
+        position: absolute;
+        left: 50%;
+        bottom: -3%;
+    }
+    
+    /***** Partie corps de la page */
+    .main-content {
+    background: rgb(218, 214, 214);
+    }
+    main {
+        width: 920px;
+        margin: auto;
+        padding: 110px 0;
+    }
+    
+    .products h3, .products p {
+        text-align: center;
+    }
+    
+    .products h3 {
+        font-size: 70px;
+        font-weight: 700;
+    }
+    
+    .productsSndPargraph {
+        margin-top: 6px;
+    }
+    .cardsOne {
+        margin-top: 70px;
+    }
+    .cardsOne, .cardsTwo {
+        display: flex;
+    }
+    
+    .card {
+        margin-left: 12px;
+        background: white;
+        border: 2px solid rgba(0,0,0,.125);
+        border-radius: 0.25rem;
+    }
+    .card img {
+        width:  100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .container {
+        padding: 15px;
+    }
+    
+    .container h5 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    
+    .container p {
+        font-size: 0.7rem;
+    }
+    
+    .cardsTwo {
+        margin-top: 15px;
+    }
+}
