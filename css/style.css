@@ -259,6 +259,9 @@ footer {
 }
 
 @media screen  and (max-width: 441px) {
+    body {
+        overflow-x: hidden;
+    }
     .theLinks {
         text-align: center;
         margin-left: 0;
@@ -404,6 +407,9 @@ footer {
 }
 
 @media screen and (min-width: 992px) and (max-width: 1440px) {
+    body {
+        overflow-x: hidden;
+    }
     header {
         background: center / cover no-repeat url(../images/header_image.jpg);
         height: 580px;
