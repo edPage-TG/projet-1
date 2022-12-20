@@ -261,7 +261,6 @@ footer {
 @media screen  and (max-width: 441px) {
     body {
         overflow-x: hidden !important;
-        width: 419px !important;
     }
     .theLinks {
         text-align: center;
