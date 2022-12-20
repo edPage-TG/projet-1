@@ -260,7 +260,7 @@ footer {
 
 @media screen  and (max-width: 441px) {
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
     }
     .theLinks {
         text-align: center;
@@ -278,11 +278,19 @@ footer {
         margin-top: 1px !important;
         margin-right: 29px;
     }
+
+    .entreprise-info p {
+        font-size: 0.7rem !important;
+    }
+    .endFooter {
+        font-size: 0.9rem !important;
+    }
 }
 
 @media screen and (max-width: 768px){
     body {
         overflow-x: hidden;
+        
     }
     header {
         width: auto;
@@ -408,7 +416,7 @@ footer {
 
 @media screen and (min-width: 992px) and (max-width: 1440px) {
     body {
-        overflow-x: hidden;
+       overflow-x: hidden;
     }
     header {
         background: center / cover no-repeat url(../images/header_image.jpg);
