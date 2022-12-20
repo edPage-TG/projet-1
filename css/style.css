@@ -278,7 +278,9 @@ footer {
         margin-top: 1px !important;
         margin-right: 29px;
     }
-
+    hr {
+        width: 326px;
+    } 
     .entreprise-info p {
         font-size: 0.7rem !important;
     }
