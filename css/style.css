@@ -261,6 +261,7 @@ footer {
 @media screen  and (max-width: 441px) {
     body {
         overflow-x: hidden !important;
+        width: 419px !important;
     }
     .theLinks {
         text-align: center;
@@ -279,7 +280,7 @@ footer {
         margin-right: 29px;
     }
     hr {
-        width: 326px;
+        width: 500px;
     } 
     .entreprise-info p {
         font-size: 0.7rem !important;
