@@ -4,6 +4,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+html {
+    overflow-x: hidden;
+}
 
 header {
     background: center / cover no-repeat url(../images/header_image.jpg);
